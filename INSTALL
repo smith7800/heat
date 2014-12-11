@@ -1,0 +1,9 @@
+Building heat
+
+See doc/readme-qt.rst for instructions on building heat QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of heat.
+
+See doc/build-*.txt for instructions on building heatd,
+the intended-for-services, no-graphical-interface, reference
+implementation of heat.
