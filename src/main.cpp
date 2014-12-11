@@ -2948,7 +2948,7 @@ bool LoadBlockIndex(bool fAllowNew)
     block.nVersion = 1;
     block.nTime    = !fTestNet ? 1418270653 : 1418270653;
     block.nBits    = bnProofOfWorkLimit.GetCompact();
-    block.nNonce   = !fTestNet ? 942013 : 942013;
+    block.nNonce   = !fTestNet ? 1675220 : 1675220;
 
     // debug print
     printf("block.GetHash() = %s\n", block.GetHash().ToString().c_str());
@@ -2972,7 +2972,7 @@ bool LoadBlockIndex(bool fAllowNew)
     // hash and also the block's nonce, do not think that is needed but check
 
     // If genesis block hash does not match, then generate new genesis hash
-    if(true && block.GetHash() != hashGenesisBlock)
+    if(false && block.GetHash() != hashGenesisBlock)
     {
       printf("\nScanning for the Genesis Block\n");
 
